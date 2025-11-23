@@ -4,6 +4,7 @@ import { Todo, FilterType, Subtask, Group } from './types';
 import { TodoItem } from './components/TodoItem';
 import { Button } from './components/Button';
 import { generateSubtasks, smartSortTodos } from './services/geminiService';
+import './App.css';
 
 const STORAGE_KEY = 'lumina_todos_v2';
 const GROUPS_KEY = 'lumina_groups_v1';
